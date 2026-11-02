@@ -1,0 +1,3 @@
+$ gcc -std=c11 -Wall -Wextra -O2 shm_ipc.c -o shm_ipc_check
+
+(exit=0)

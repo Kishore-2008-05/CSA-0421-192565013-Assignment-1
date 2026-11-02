@@ -1,0 +1,5 @@
+$ ./shm_ipc
+shared-memory analyser: 6 readings, average 35.5, max 41
+shared-memory reader: done
+
+(exit=0)

@@ -1,0 +1,6 @@
+$ ./banker_bench
+n=10 m=3 safe=1 elapsed=0.000028374 s
+n=100 m=3 safe=1 elapsed=0.000005145 s
+n=1000 m=3 safe=1 elapsed=0.000006838 s
+
+(exit=0)

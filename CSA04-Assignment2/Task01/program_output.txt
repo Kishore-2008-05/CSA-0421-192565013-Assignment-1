@@ -1,0 +1,8 @@
+$ ./process_demo
+    PID    PPID STAT COMMAND
+    872     325 Sl   process_demo
+    874     872 S    process_demo
+parent: pid=872 child=874
+parent: child exit=0
+
+(exit=0)

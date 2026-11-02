@@ -1,0 +1,9 @@
+$ ./camera_threads_check
+serial: 0.005145 s
+one-thread-per-camera (64): 0.009755 s, speedup 0.53x
+pool  4: 0.002045 s, speedup 2.52x
+pool  8: 0.002159 s, speedup 2.38x
+pool 16: 0.002205 s, speedup 2.33x
+checksum=13922033247645681824
+
+(exit=0)

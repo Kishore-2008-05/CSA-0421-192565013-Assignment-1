@@ -1,0 +1,1 @@
+Expected correctness result: items consumed: 20, sum = 210 (expected 210). Run 100 times using run_100.sh.

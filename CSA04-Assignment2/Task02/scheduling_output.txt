@@ -1,0 +1,76 @@
+$ python3 scheduling.py
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+
+FCFS: P1(0-8) P2(8-12) P3(12-21) P4(21-26)
+P1 TAT=8 WT=0 RT=0
+P2 TAT=11 WT=7 RT=7
+P3 TAT=19 WT=10 RT=10
+P4 TAT=23 WT=18 RT=18
+averages TAT=15.25 WT=8.75 RT=8.75
+
+SJF: P1(0-8) P2(8-12) P4(12-17) P3(17-26)
+P1 TAT=8 WT=0 RT=0
+P2 TAT=11 WT=7 RT=7
+P3 TAT=24 WT=15 RT=15
+P4 TAT=14 WT=9 RT=9
+averages TAT=14.25 WT=7.75 RT=7.75
+
+SRTF: P1(0-1) P2(1-5) P4(5-10) P1(10-17) P3(17-26)
+P1 TAT=17 WT=9 RT=0
+P2 TAT=4 WT=0 RT=0
+P3 TAT=24 WT=15 RT=15
+P4 TAT=7 WT=2 RT=2
+averages TAT=13.00 WT=6.50 RT=4.25
+
+Priority (1 is highest): P1(0-8) P2(8-12) P4(12-17) P3(17-26)
+P1 TAT=8 WT=0 RT=0
+P2 TAT=11 WT=7 RT=7
+P3 TAT=24 WT=15 RT=15
+P4 TAT=14 WT=9 RT=9
+averages TAT=14.25 WT=7.75 RT=7.75
+
+Round Robin q=3: P1(0-3) P2(3-6) P3(6-9) P4(9-12) P1(12-15) P2(15-16) P3(16-19) P4(19-21) P1(21-23) P3(23-26)
+P1 TAT=23 WT=15 RT=0
+P2 TAT=15 WT=11 RT=2
+P3 TAT=24 WT=15 RT=4
+P4 TAT=18 WT=13 RT=6
+averages TAT=20.00 WT=13.50 RT=3.00
+
+Round Robin q=1: P1(0-1) P2(1-2) P1(2-3) P3(3-4) P2(4-5) P4(5-6) P1(6-7) P3(7-8) P2(8-9) P4(9-10) P1(10-11) P3(11-12) P2(12-13) P4(13-14) P1(14-15) P3(15-16) P4(16-17) P1(17-18) P3(18-19) P4(19-20) P1(20-21) P3(21-22) P1(22-23) P3(23-24) P3(24-25) P3(25-26)
+P1 TAT=23 WT=15 RT=0
+P2 TAT=12 WT=8 RT=0
+P3 TAT=24 WT=15 RT=1
+P4 TAT=17 WT=12 RT=2
+averages TAT=19.00 WT=12.50 RT=0.75
+
+Round Robin q=3: P1(0-3) P2(3-6) P3(6-9) P4(9-12) P1(12-15) P2(15-16) P3(16-19) P4(19-21) P1(21-23) P3(23-26)
+P1 TAT=23 WT=15 RT=0
+P2 TAT=15 WT=11 RT=2
+P3 TAT=24 WT=15 RT=4
+P4 TAT=18 WT=13 RT=6
+averages TAT=20.00 WT=13.50 RT=3.00
+
+Round Robin q=5: P1(0-5) P2(5-9) P3(9-14) P4(14-19) P1(19-22) P3(22-26)
+P1 TAT=22 WT=14 RT=0
+P2 TAT=8 WT=4 RT=4
+P3 TAT=24 WT=15 RT=7
+P4 TAT=16 WT=11 RT=11
+averages TAT=17.50 WT=11.00 RT=5.50
+
+Round Robin q=20: P1(0-8) P2(8-12) P3(12-21) P4(21-26)
+P1 TAT=8 WT=0 RT=0
+P2 TAT=11 WT=7 RT=7
+P3 TAT=19 WT=10 RT=10
+P4 TAT=23 WT=18 RT=18
+averages TAT=15.25 WT=8.75 RT=8.75
+
+(exit=0)

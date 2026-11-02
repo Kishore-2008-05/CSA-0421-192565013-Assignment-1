@@ -1,0 +1,3 @@
+$ gcc -std=c11 -Wall -Wextra -O2 process_demo.c -o process_demo_check
+
+(exit=0)

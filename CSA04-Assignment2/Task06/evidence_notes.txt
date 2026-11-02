@@ -1,0 +1,1 @@
+Expected Banker output is stated in the assignment PDF. Run banker.c and compare line by line; benchmark timings are machine-dependent.

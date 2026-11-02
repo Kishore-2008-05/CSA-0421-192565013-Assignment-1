@@ -1,0 +1,4 @@
+$ ./bounded_buffer 4 4
+items consumed: 20, sum = 210 (expected 210)
+
+(exit=0)

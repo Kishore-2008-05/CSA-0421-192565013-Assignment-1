@@ -1,0 +1,10 @@
+$ gcc -std=c11 -Wall -Wextra -O2 pipe_ipc.c -o pipe_ipc
+pipe_ipc.c: In function ‘main’:
+pipe_ipc.c:17:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   17 |             if(count==0||r>max)max=r;sum+=r;count++;
+      |             ^~
+pipe_ipc.c:17:38: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   17 |             if(count==0||r>max)max=r;sum+=r;count++;
+      |                                      ^~~
+
+(exit=0)
