@@ -1,0 +1,5 @@
+Compile command: gcc -std=c11 -Wall -Wextra -O2 /mnt/data/CSA04-Assignment1/Task05/system_calls.c -o /mnt/data/CSA04-Assignment1/Task05/system_calls
+Compile return code: 0
+Run return code: 0
+Output:
+Smart hospital system-call demonstration.

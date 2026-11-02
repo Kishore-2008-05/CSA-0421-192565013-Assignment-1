@@ -1,0 +1,3 @@
+Run: /usr/bin/time -v ./process_thread_bench
+Run: strace -c ./file_copy (from Task06 after compiling there)
+Record actual elapsed/user/system times from your machine. Benchmarks are environment-dependent.

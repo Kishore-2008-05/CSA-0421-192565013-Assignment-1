@@ -1,0 +1,9 @@
+Compile command: gcc -std=c11 -Wall -Wextra -O2 /mnt/data/CSA04-Assignment1/Task07/process_control.c -o /mnt/data/CSA04-Assignment1/Task07/process_control
+Compile return code: 0
+Run return code: 0
+Output:
+shell: running job 1
+42
+job 1 exit status 0
+shell: running job 2
+job 2 exit status 3

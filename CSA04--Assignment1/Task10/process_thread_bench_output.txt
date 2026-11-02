@@ -1,0 +1,6 @@
+Compile command: gcc -std=c11 -Wall -Wextra -O2 /mnt/data/CSA04-Assignment1/Task10/process_thread_bench.c -o /mnt/data/CSA04-Assignment1/Task10/process_thread_bench -pthread
+Compile return code: 0
+Run return code: 0
+Output:
+Created and reaped 1000 processes: 0.316079 seconds
+Created and joined 1000 threads:  0.060130 seconds
