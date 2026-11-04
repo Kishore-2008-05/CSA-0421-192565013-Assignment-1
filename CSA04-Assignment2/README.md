@@ -5,11 +5,11 @@
 > Replace the student placeholders before submission. Run every program on your own Linux system and replace/augment the included reference outputs with your own terminal screenshots and measurements.
 
 ## Student details
-- Name: `[YOUR NAME]`
-- Register number: `[YOUR REGISTER NUMBER]`
-- GitHub repository: `CSA04-<RegisterNumber>-Assignment2`
-- Compiler: GCC (record exact output of `gcc --version`)
-- Linux distribution/version: `[record from /etc/os-release]`
+- Name: Kishore Kumar S
+- Register number: 192565013
+- GitHub repository: `CSA04-<192565013>-Assignment2
+- Compiler: gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+- Linux distribution/version: 26.04.1 LTS (Resolute Raccoon)"
 
 ## Build conventions
 Typical C build command:
